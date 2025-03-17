@@ -1,0 +1,23 @@
+location: gitman_sources
+sources:
+- name: CTopPRM
+  type: git
+  repo: https://github.com/ctu-mrs/CTopPRM.git
+  sparse_paths:
+  -
+  rev: master
+  link:
+  -
+  scripts:
+  -
+- name: PMM
+  type: git
+  repo: https://github.com/ctu-mrs/pmm_uav_planner.git
+  sparse_paths:
+  -
+  rev: master  
+  link:
+  -
+  scripts:
+  -
+
