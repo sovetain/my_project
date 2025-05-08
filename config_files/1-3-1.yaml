@@ -14,11 +14,11 @@ logfile: results.log
 
 # small columns spec begin
 check_collisions: true
-map: blender/1-2-0.obj.npy
+map: ../blender/1-3-1.obj.npy
 map_type: ESDF
 min_clearance: 0.3
 start:
-  position: [-4.0,-15.0,3.5]
+  position: [-6.0,-13.0,3.5]
   velocity: [0 , 0 , 0]
 end:
   position: [8.0,9.0,3.5]
@@ -26,8 +26,8 @@ end:
 gates: []
 gates_orientations: [90, 0]    
 # small columns spec end
-planar: true
 
+planar: true
 
 # forest0 spec begin
 # check_collisions: true
@@ -108,7 +108,7 @@ dv: 1.30
 ds: 0.50
 
 num_clusters: 2
-min_clusters: 4
+min_clusters: 5
 max_clusters: 9
 
 max_path_length_ratio: 1.8

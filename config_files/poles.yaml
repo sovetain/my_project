@@ -20,7 +20,7 @@ logfile: results.log
 
 # forest0 spec begin
 check_collisions: true
-map: blender/random_columns.obj.npy
+map: ../blender/random_columns.obj.npy
 map_type: ESDF
 min_clearance: 0.4
 start:

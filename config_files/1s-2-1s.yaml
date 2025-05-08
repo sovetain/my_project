@@ -14,11 +14,11 @@ logfile: results.log
 
 # small columns spec begin
 check_collisions: true
-map: blender/1-2-1.obj.npy
+map: ../blender/1s-2-1s.obj.npy
 map_type: ESDF
 min_clearance: 0.3
 start:
-  position: [-8.0,-15.0,3.5]
+  position: [-4.0,-15.0,3.5]
   velocity: [0 , 0 , 0]
 end:
   position: [8.0,9.0,3.5]
@@ -117,7 +117,7 @@ min_ratio: 1.2
 min_cluster_distance: 0.0
 
 #topological PRM Parameters
-cutoof_distance_ratio_to_shortest: 1.5 #what is the ration of length compared to shortest, when paths are not considered
+cutoof_distance_ratio_to_shortest: 1.75 #what is the ration of length compared to shortest, when paths are not considered
 ellipse_ratio_major_axis_focal_length: 3.0 # ratio between length of 2 major axis and focal length
 
 collision_distance_check: 0.1
