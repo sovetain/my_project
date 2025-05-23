@@ -9,8 +9,7 @@ vel_scale: 1.0
 omega_scale: 1.0      
 
 
-logfile: results.log
-
+logfile: results.log 
 
 # small columns spec begin
 check_collisions: true
@@ -45,48 +44,48 @@ planar: true
 # forest0 spec end
 
 # # forest1 spec begin
-# check_collisions: true
-# map: blender/random_columns.obj.npy
-# map_type: ESDF
-# min_clearance: 0.2
-# start:
-#   position: [3.0,-6.0,1.3]
-#   velocity: [0 , 0 , 0]
-# end:
-#   position: [-4.0,6.0,1.3]
-#   velocity: [0 , 0 , 0]
-# gates: []
-# gates_orientations: [90, 0]    
+#check_collisions: true
+#map: ../blender/random_columns.obj.npy
+#map_type: ESDF
+#min_clearance: 0.2
+#start:
+#  position: [3.0,-6.0,1.3]
+#  velocity: [0 , 0 , 0]
+#end:
+#  position: [-4.0,6.0,1.3]
+#  velocity: [0 , 0 , 0]
+#gates: []
+#gates_orientations: [90, 0]    
 # # forest1 spec end
 
 # forest2 spec begin
-# check_collisions: true
-# map: blender/random_columns.obj.npy
-# map_type: ESDF
-# min_clearance: 0.2
-# start:
-#   position: [-7.0,-2.0,1.3]
-#   velocity: [0 , 0 , 0]
-# end:
-#   position: [3.0,7.0,1.3]
-#   velocity: [0 , 0 , 0]
-# gates: []
-# gates_orientations: [90, 0]    
+#check_collisions: true
+#map: ../blender/random_columns.obj.npy
+#map_type: ESDF
+#min_clearance: 0.2
+#start:
+#  position: [-7.0,-2.0,1.3]
+#  velocity: [0 , 0 , 0]
+#end:
+#  position: [3.0,7.0,1.3]
+#  velocity: [0 , 0 , 0]
+#gates: []
+#gates_orientations: [90, 0]    
 # forest2 spec end
 
 # forest3 spec begin
-# check_collisions: true
-# map: blender/random_columns.obj.npy
-# map_type: ESDF
-# min_clearance: 0.2
-# start:
-#   position: [9.0,7.0,1.3]
-#   velocity: [0 , 0 , 0]
-# end:
-#   position: [-8.0,-7.0,1.3]
-#   velocity: [0 , 0 , 0]
-# gates: []
-# gates_orientations: [-135, -135]    
+#check_collisions: true
+#map: ../blender/random_columns.obj.npy
+#map_type: ESDF
+#min_clearance: 0.2
+#start:
+#  position: [9.0,7.0,1.3]
+#  velocity: [0 , 0 , 0]
+#end:
+#  position: [-8.0,-7.0,1.3]
+#  velocity: [0 , 0 , 0]
+#gates: []
+#gates_orientations: [-135, -135]    
 # forest3 spec end
 
 

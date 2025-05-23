@@ -14,7 +14,7 @@ logfile: results.log
 
 # small columns spec begin
 check_collisions: true
-map: blender/building_crop.obj.npy
+map: ../blender/building_crop.obj.npy
 map_type: ESDF
 min_clearance: 0.2
 start:

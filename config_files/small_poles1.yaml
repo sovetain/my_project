@@ -14,7 +14,7 @@ logfile: results.log
 
 # small columns spec begin
 check_collisions: true
-map: blender/small_random_columns.obj.npy
+map: ../blender/small_random_columns.obj.npy
 map_type: ESDF
 min_clearance: 0.3
 start:

@@ -27,9 +27,10 @@ def plot_3d_positions_graph(pmm_samples):
     ax3d.set_xlabel('x [m]', labelpad=10)
     ax3d.set_ylabel('y [m]', labelpad=10)
     ax3d.set_zlabel('z [m]', labelpad=10)
-    ax3d.grid(False)
+    ax3d.grid(True)
     fig2.colorbar(velocities_plot, label="velocity [m/s]", pad=0.15,
                   ticks=[min(velocity_norms) + (max(velocity_norms) - min(velocity_norms)) * i / 10 for i in range(0, 11, 2)], shrink=0.7)
+   
     fig2.subplots_adjust(left=0.05, right=0.95, bottom=0.05, top=0.95, wspace=0.05, hspace=0.2)
 
 
@@ -43,4 +44,5 @@ if __name__=="__main__":
     tr_samples = load_trajectory_samples_pmm_row(sys.argv[1])
     plot_3d_positions_graph(tr_samples)
 
-    plt.show()
+    #plt.show()
+    plt.savefig('trajectory.png', dpi=300, bbox_inches='tight')

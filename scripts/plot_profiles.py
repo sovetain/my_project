@@ -79,4 +79,5 @@ if __name__=="__main__":
     print("Visualizing Trajectory Profile")
     visualize_sampled_pmm_mp_3d(sys.argv[1])
 
-    plt.show()
+    #plt.show()
+    plt.savefig('trajectory_prof.png', dpi=300, bbox_inches='tight')
